@@ -1,4 +1,5 @@
 source "https://rubygems.org"
+#source  "https://github.com/awesome-print/awesome_print.git"
 gem "rspec"
 gem "sinatra"
 gem "hashie"
@@ -6,7 +7,7 @@ gem "hashie"
 #end#source "https://github.com/awesome-print/awesome_print.git"
 #gem "awesome_print"
 
-gem "awesome_print", :git => "https://github.com/awesome-print/awesome_print.git"
+gem "awesome_print", git: => "git@github.com/awesome-print/awesome_print.git"
 group :development do
 gem "pry"
 end
